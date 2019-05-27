@@ -16,5 +16,13 @@ class Doctor
     appt = Appointment.new()
   end 
   def appointments
-    Appointment.
+    Appointment.all.select do |a| 
+      
+    end 
+  end 
+  def patients 
+    appointments.each.do |a| 
+      
+    end 
+  end 
 end 
