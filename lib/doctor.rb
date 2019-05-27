@@ -28,4 +28,3 @@ class Doctor
     results
   end 
 end 
-end 
