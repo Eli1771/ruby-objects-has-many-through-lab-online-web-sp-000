@@ -26,7 +26,7 @@ class Artist
   end 
   def genres 
     results = []
-    @songs.each do |s| 
+    songs.each do |s| 
       results << s.genre 
     end 
     results
